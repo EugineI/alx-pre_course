@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*include<stdio.h>
 int main()
 {
   char name[20];
@@ -18,7 +18,23 @@ int main()
   printf("Enter your name:");
   scanf("%s",name);
 
-  printf("You are %d years old and your gpa is %lf \n", age,gpa);
-  printf("Name: %s\n Grade: %c\n", name, grade);
+  
+);
+  printf("Used comments started a  new c program \n");
   return 0;
+  }*/
+
+#include<stdio.h>
+int main()
+{
+  int n = 1;
+  int m = 2;
+  int sum = n + m;
+  char name[20];
+  printf("Enter you message:");
+  scanf("%s", name);
+  printf("%s %d\n",name,sum);
+
+  return 0;
+  
 }
