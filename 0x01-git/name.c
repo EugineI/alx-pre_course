@@ -34,6 +34,14 @@ int main()
   printf("Enter you message:");
   scanf("%s", name);
   printf("%s %d\n",name,sum);
+  if(sum > 5)
+    {
+      printf("********");
+    }
+  else
+    {
+      printf("##########");
+    }
 
   return 0;
   
